@@ -74,23 +74,29 @@ footer {
     }
     main {
         width: 100%;
+        display: block;
+        margin-top: 50px;
+        margin-bottom: 50px;
     }
     .step-box {
         width: 90%;
-        display: flex;
-        flex-direction: column;
-
+        padding: 10px;
+        margin: auto ;
     }
     .step-box:nth-child(2) {
-        padding: 20px 0 20px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .step-box:nth-child(3) {
+        margin: auto;
     }
     .step-image1 {
         height:150px;
     }
-    .step-image {
+    .step-image2 {
         height: 150px;
     }
-    .step-image {
+    .step-image3 {
         height: 150px;
     }
     footer {
